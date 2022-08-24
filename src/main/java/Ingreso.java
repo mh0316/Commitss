@@ -5,5 +5,12 @@ public class Ingreso {
         Scanner leer = new Scanner((System.in));
         System.out.println("Ingrese un número:");
         int numero = leer.nextInt();
+
+        System.out.println(numero);
+        if(numero > 8){
+            System.out.println("Hola");
+        }else{
+            System.out.println("Hi");
+        }
     }
 }
