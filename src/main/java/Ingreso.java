@@ -9,8 +9,10 @@ public class Ingreso {
         System.out.println(numero);
         if(numero > 8){
             System.out.println("Hola");
-        }else{
+        }else {
             System.out.println("Hi");
         }
+
+        System.out.println(numero*numero);
     }
 }
